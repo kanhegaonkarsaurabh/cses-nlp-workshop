@@ -1,0 +1,16 @@
+{
+  "name": "hackxx_workshop",
+  "version": "1.0.0",
+  "description": "Slides for nlp workshop conducted at HackXX 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.mdx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^2.0.6",
+    "styled-components": "^4.2.0"
+  }
+}
