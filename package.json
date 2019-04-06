@@ -9,12 +9,13 @@
     "build": "mdx-deck build deck.mdx",
     "pdf": "mdx-deck pdf deck.mdx",
     "image": "mdx-deck screenshot deck.mdx",
-    "help": "mdx-deck", 
+    "help": "mdx-deck",
     "postbuild": "cpy --parents \"public/**\" ./dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cpy-cli": "^2.0.0",
     "mdx-deck": "^2.0.6",
     "styled-components": "^4.2.0"
   }
